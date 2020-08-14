@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-//        StatusBarUtil.setTranslucent(this)
         img.setBackgroundResource(R.mipmap.bg)
         collapsing.setExpandedTitleColor(Color.WHITE)
         collapsing.setCollapsedTitleTextColor(Color.WHITE)
