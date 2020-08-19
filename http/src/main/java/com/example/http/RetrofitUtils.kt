@@ -22,7 +22,7 @@ class RetrofitUtils {
 
 
     val retrofit = Retrofit.Builder()
-        .baseUrl(NetConfig().BASE_URL)
+        .baseUrl(NetConfig.BASE_URL)
         .addConverterFactory(GsonConverterFactory.create())
         .addCallAdapterFactory(CoroutineCallAdapterFactory())
         .build()
